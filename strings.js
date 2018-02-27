@@ -7,3 +7,9 @@ console.log("numOfSandwiches", numOfSandwiches)
 var name = "bob";
 var string = "hello, " + name + " how are you doing today?";
 console.log("string:", string);
+
+//challenge 3
+
+var DNA = "GCAT";
+var RNA = DNA.replace("T","U");
+console.log("RNA:", RNA);
