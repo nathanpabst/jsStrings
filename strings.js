@@ -13,3 +13,14 @@ console.log("string:", string);
 var DNA = "GCAT";
 var RNA = DNA.replace("T","U");
 console.log("RNA:", RNA);
+
+//challenge 4
+
+// var animal = "bird";
+// var animal = "dog"
+var animal = "Alligator";
+if (animal.toLowerCase() === "alligator"){
+    console.log("small:")
+} else {
+    console.log("wide:")
+}
